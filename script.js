@@ -30,7 +30,6 @@ async function datos(raw) {
     }
 }
 
-// Código del gráfico para grafico.html
 if (document.querySelector("#notas")) {
     new Chart("notas", {
         type: "line",
