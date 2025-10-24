@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Más Información - Ayleen Bahamóndez</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header data-bstheme="dark">
+            <div class="collapse text-bg-dark" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 py-4">
+                            <h4>Sobre mí</h4>
+                            <p>Apasionada la innovación en procesos productivos y la integración de la tecnología en proyectos creativos. Mi trabajo explora desde el diseño de producto hasta la experimentación con materiales y fabricación digital, siempre buscando conectar la funcionalidad con la emoción.</p>
+                            <div>
+                                <h4>Contacto</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://www.behance.net/jasmincastill" target="_blank" class="text-white">Behance</a></li>
+                                    <li><a href="https://www.linkedin.com/in/livka-kutz-303503342/" target="_blank" class="text-white">LinkedIn</a></li>
+                                    <li><a href="mailto:ayleen.bahamndez@uc.cl" class="text-white">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <h4 class="ms-2">Habilidades</h4>
+                            <table id="aqui" class="table table-borderless table-hover table-dark"></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center">
+                        <strong>Portafolio</strong>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Ayleen Bahamóndez</h1>
+                        <p class="lead text-body-secondary">
+                            Diseñadora integral
+                        </p>
+                        <p>
+                            <a href="index.html" class="btn my-2" style="background-color: darkseagreen; border: none; color: white;">Página principal</a>
+                            <a href="grafico.html" class="btn btn-secondary my-2">Más información</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="chart-container">
+                        <h2>Progresión de Notas Durante la Carrera</h2>
+                        <canvas id="notas"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-body-secondary py-5">
+            <div class="container">
+                <p class="float-end mb-1"><a href="#" style="color: darkseagreen;">Volver arriba</a></p>
+                <p class="mb-1">&copy; Ayleen Bahámondez 2025</p>
+                <p class="mb-0"><small>Hecho por Livka Kutz</small></p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
